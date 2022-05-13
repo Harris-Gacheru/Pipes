@@ -7,13 +7,19 @@ import { PipeComponent } from './pipe/pipe.component';
 import { SummaryPipe } from './summary.pipe';
 import { SearchPipe } from './search.pipe';
 import { FormsModule } from '@angular/forms';
+import { SortPipe } from './sort.pipe';
+import { ReversePipe } from './reverse.pipe';
+import { ReverseStringComponent } from './reverse-string/reverse-string.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PipeComponent,
     SummaryPipe,
-    SearchPipe
+    SearchPipe,
+    SortPipe,
+    ReversePipe,
+    ReverseStringComponent
   ],
   imports: [
     BrowserModule,

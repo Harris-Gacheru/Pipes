@@ -9,7 +9,6 @@ import { SearchPipe } from './search.pipe';
 import { FormsModule } from '@angular/forms';
 import { SortPipe } from './sort.pipe';
 import { ReversePipe } from './reverse.pipe';
-import { ReverseStringComponent } from './reverse-string/reverse-string.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { ReverseStringComponent } from './reverse-string/reverse-string.componen
     SearchPipe,
     SortPipe,
     ReversePipe,
-    ReverseStringComponent
   ],
   imports: [
     BrowserModule,
